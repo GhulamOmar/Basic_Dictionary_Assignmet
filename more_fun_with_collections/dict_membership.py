@@ -2,7 +2,7 @@
 Program: dict_membership.py
 Author: Ghulam Omar
 Last date modified: 10/12/2019
-This program is an example of function.That accepts a  Dictionary and return a boolean value
+This program is an example of function.That accepts a  Dictionary and return a boolean value.
 """
 
 
