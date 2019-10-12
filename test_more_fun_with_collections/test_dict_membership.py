@@ -3,13 +3,15 @@ from more_fun_with_collections import dict_membership
 
 
 class ScoreTestCase(unittest.TestCase):
-    def test_score_input_test_name(self):
-        name = 'test'
-        expected_result = {'testeeee':50}
+    def test_in_dict(self):
+        """ tests false is true"""
+        name = 'score1'
+        expected_result = {'score': 50}
         self.assertFalse(expected_result.get(name))
-    def test_score_input_test_name55(self):
-        name = 'test'
-        expected_result = {'test':50}
+
+    def test_in_dict_is_true(self):
+        name = 'score'
+        expected_result = {'score3': 50}
         self.assertTrue(expected_result.get(name))
 
 
